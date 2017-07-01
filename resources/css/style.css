@@ -1,0 +1,188 @@
+header {
+  display: flex;
+  position: fixed;
+  z-index: 1000;
+  background-color: white;
+  width: 100%;
+  margin: -10px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 10px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+
+.logo p {
+  display: inline;
+  color: MediumAquamarine;
+  padding-left: 10px;
+}
+
+nav {
+  padding-right: 40px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+nav a {
+  color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  min-width: 1266px;
+  padding-top: 70px;
+  margin-bottom: 50px;
+}
+
+.main {
+  display: flex;
+  margin: 0 auto;
+  justify-content: flex-start;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+div h1 {
+  font-size: 22px;
+}
+
+.column {
+  margin-top: 35px;
+  margin-right: 30px;
+  display: flex;
+}
+
+.column.large {
+  width: 630px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.column.medium {
+  width: 300px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.column.small {
+  width: 240px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.leadStory {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image.drinks {
+  background-image: url("../images/drinks.png");
+  height: 300px;
+  width: 629px;
+  font-size: 40px;
+}
+
+.image.seasons {
+  background-image: url("../images/seasons.png");
+  height: 300px;
+  width: 300px;
+}
+
+.image.cameraman {
+  background-image: url("../images/hipsterCameraman.png");
+  height: 300px;
+  width: 300px;
+}
+
+.image.catCEO {
+  background-image: url("../images/catCEO.png");
+  height: 300px;
+}
+
+.largeColumnStories {
+  width: 300px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.NEWSBITES h1 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.NEWSBITESStories p {
+  display: inline-block;
+  margin: 0;
+  padding: 10px 0px 10px 15px;
+  width: 100%;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+}
+
+.NEWSBITESStories {
+  margin-top: 30px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.MYTimesFooter h1 {
+  display: inline-block;
+  padding: 0 20px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.MYTimesFooter nav {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.CopyrightInfo p {
+
+}
